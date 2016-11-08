@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: #232323;
+  color: white;
+}
+
+header {
+  font-family: 'Inconsolata', monospace;
+  background-color: #4783B0;
+  text-align: center;
+  padding: 5px 0px;
+  color: white;
+  line-height: 2px;
+  letter-spacing: 2px;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+.score {
+  margin-top: 10px;
+}
+
+.rgb {
+  margin-top: 200px;
+}
+
+#correcto {
+  display: block;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.color {
+  border-radius: 50%;
+  background-color: white;
+  padding: 25px;
+  display: inline-block;
+  margin: 60px 10px;
+  transition: all 0.45s ease;
+}
+
+.scale {
+  transform: scale(46);
+}
+
+.result {
+  display: none;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.result span {
+  display: block;
+  font-size: 50px;
+}
+
+.result #resultado {
+  font-size: 20px;
+}
+
+.result .close {
+  margin-top: 50px;
+}
+
+.result a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px solid white;
+  color: white;
+}

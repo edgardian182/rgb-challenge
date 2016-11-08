@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>rgb challenge</title>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h3>THE GREAT</h3>
+    <h1>RGB</h1>
+    <h3>GUESSING CHALLENGE</h3>
+  </header>
+
+  <div class="score">
+    SCORE <span>0</span>
+  </div>
+
+  <div class="rgb">
+    <span id="correcto"></span>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+  </div>
+
+  <div class="next">
+    <span id="mensaje"></span>
+    <span id="resultado"></span>
+    <div class="close">
+      <a href="#"></a>
+    </div>
+  </div>
+
+  <div class="result won">
+    <span>MUY BIEN!!!</span>
+    <span id="resultado"></span>
+    <div class="close">
+      <a href="#">Siguiente</a>
+    </div>
+  </div>
+  <div class="result lost">
+    <span>QUE MAL! :(</span>
+    <span id="resultado"></span>
+    <div class="close">
+      <a href="#">Vuelve a intentarlo</a>
+    </div>
+  </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/application.js"></script>
+</body>
+</html>
