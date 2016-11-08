@@ -42,6 +42,7 @@ $('.color').on('click tap', function(){
   $('.result #resultado').text("SCORE: " + score);
 })
 
+// Carga nuevo juego al hacer click en el link
 $('.result a').on('click tap', function(){
   $('.color').removeClass('scale')
   $('.result').hide();
