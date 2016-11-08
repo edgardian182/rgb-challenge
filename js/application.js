@@ -25,7 +25,8 @@ function game(){
   })
 }
 
-$('.color').on('click tap', function(){
+$('.color').on('click tap', function(event){
+  event.preventDefault();
   // Encontramos el indice del elemento al que se le dio click
   var index = $('.color').index(this);
   // Si este indice es igual al definido como correcto en el game =>
@@ -43,7 +44,8 @@ $('.color').on('click tap', function(){
 })
 
 // Carga nuevo juego al hacer click en el link
-$('.result a').on('click tap', function(){
+$('.result a').on('click tap', function(event){
+  event.preventDefault();
   $('.color').removeClass('scale')
   $('.result').hide();
   game();
